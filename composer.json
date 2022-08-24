@@ -1,0 +1,16 @@
+{
+    "name": "klykovrv/natural-number-divisors-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Klykovrv\\NaturalNumberDivisorsPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KlykovRV",
+            "email": "romaklykov153@gmail.com"
+        }
+    ],
+    "require": {}
+}
