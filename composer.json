@@ -12,5 +12,7 @@
             "email": "romaklykov153@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.0"
+    }
 }

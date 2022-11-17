@@ -22,12 +22,12 @@ class NaturalNumberDivisors
             throw new Exception("Ненатуральное число.");
         }
 
-        for ($i = 2; $i < $integer; $i++) {
-            if (!($integer % $i)) {
+        for ($i = 1; $i <= $integer; $i++) {
+            if ($integer % $i === 0) {
                 $divisors[] = $i;
             }
         }
 
-        return $divisors ? implode(", ", $divisors) : $integer;
+        return implode(", ", $divisors);
     }
 }
